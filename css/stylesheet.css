@@ -1,6 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 1.3em;
     background-image: url("../images/background_passive.png");
 }
 
@@ -29,7 +29,7 @@ body {
     padding-top: 2%;
 }
 #content p {
-    line-height: 28px;
+    line-height: 1.35em;
 }
 
 #footer {
