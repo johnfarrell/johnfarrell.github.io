@@ -7,7 +7,7 @@ body {
     background-image: url("../images/background_passive.png");
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1824px) {
     .wrapper {
         width: 50%;
     }
@@ -18,7 +18,18 @@ body {
         width: 70%;
     }
 }
-@media screen and (max-width: 1224px) {
+@media screen and (min-width: 1224px) and (max-width: 1824px) {
+    .wrapper {
+        width: 65%;
+    }
+    .header {
+        width: 30%;
+    }
+    .content {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1224px) {
     .wrapper {
         width: 85%;
     }
