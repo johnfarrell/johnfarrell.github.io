@@ -1,12 +1,25 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3em;
     background-image: url("../images/background_passive.png");
 }
 
-#wrapper {
-    width: 50%;
+@media screen and (min-width: 800px) {
+    .wrapper {
+        width: 50%;
+    }
+    .header {
+        width: 30%;
+    }
+    .content {
+        width: 70%;
+    }
+}
 
+.wrapper {
     background-color: rgb(255, 255, 255);
     margin-left: auto;
     margin-right: auto;
@@ -16,24 +29,25 @@ body {
     -webkit-border-radius: 1em;
     box-shadow: .5em .5em .5em rgb(73, 73, 73);
 }
-#header {
-
+.header {
+    float: left;
+}
+.header.social-list {
 }
 
-#content {
-    padding-top: 3%;
+.content {
     margin: auto;
-    max-width: 50%;
+    float: left;
 }
-#content h2 {
-    padding-top: 2%;
+.content h2 {
 }
-#content p {
-    line-height: 1.35em;
+.content p {
+    line-height: 1.45em;
 }
 
-#footer {
+.footer {
     padding-top: 3%;
     text-align: center;
+    clear: both;
 }
 
