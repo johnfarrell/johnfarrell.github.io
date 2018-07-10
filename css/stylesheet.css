@@ -79,6 +79,10 @@ body {
     margin: 0;
 }
 
+.social-list li {
+    display: inline; 
+}
+
 .content {
     margin: auto;
     float: left;
@@ -95,5 +99,9 @@ body {
     text-align: center;
     clear: both;
     padding: 1%;
+}
+
+#icon-creds {
+    font-size: .75em;
 }
 
