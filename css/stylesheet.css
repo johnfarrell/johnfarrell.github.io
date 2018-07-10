@@ -50,6 +50,10 @@ body {
     float: left;
     padding: 1%;
 }
+.header #logo {
+    text-decoration: none;
+    color: black;
+}
 
 #tagline {
     padding-bottom: 2em;
