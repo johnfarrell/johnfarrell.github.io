@@ -99,6 +99,14 @@ body {
     line-height: 1.45em;
 }
 
+.project-summary {
+    padding: 1%;
+}
+.project-summary a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .footer {
     padding-top: 3%;
