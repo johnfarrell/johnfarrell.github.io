@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: sans-serif;
     font-size: 1.3em;
     letter-spacing: 0.05em;
     /*background-image: url("../images/background_passive.png");*/
@@ -51,6 +51,7 @@ body {
 .header {
     float: left;
     padding: 1%;
+    padding-right: 5%;
 }
 .header #logo {
     text-decoration: none;
