@@ -6,7 +6,7 @@ body {
     font-size: 1.3em;
     letter-spacing: 0.05em;
     /*background-image: url("../images/background_passive.png");*/
-    background-color: rgb(240,240,230);
+    background-color: rgb(250,250,240);
 }
 
 @media screen and (min-width: 1824px) {
@@ -39,7 +39,6 @@ body {
 
 
 .wrapper {
-    background-color: rgb(240, 240, 230);
     margin-left: auto;
     margin-right: auto;
     padding: 1.5%;
